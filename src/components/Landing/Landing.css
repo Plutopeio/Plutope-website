@@ -1,0 +1,48 @@
+.landing_container{
+    margin-top: 50px;
+}
+
+.left_hero h1{
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 95px;
+}
+
+.landing_para{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #ACACAC;
+}
+
+.join_waitlist_btn{
+    background-color: black !important;
+    padding: 20px !important;
+    font-size: large !important;
+    border-radius: 20px !important;
+}
+
+@media screen and (max-width:968px) {
+    .left_hero{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .left_hero h1{
+        font-size: 30px;
+        line-height: 40px;
+        text-align: center;
+    }
+
+    .landing_para{
+        text-align: center;
+    }
+
+    .join_waitlist_btn{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

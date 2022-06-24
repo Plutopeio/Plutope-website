@@ -1,0 +1,17 @@
+.right_feature h1{
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 95px;
+}
+
+@media screen and (max-width:968px) {
+    .right_feature h1{
+        font-size: 30px;
+        line-height: 40px;
+        text-align: center;
+    }
+
+    .left_feature img{
+        width: 300px;
+    }
+}
