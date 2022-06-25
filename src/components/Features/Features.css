@@ -5,6 +5,9 @@
 }
 
 @media screen and (max-width:968px) {
+    .features_container{
+        flex-direction: column;
+    }
     .right_feature h1{
         font-size: 30px;
         line-height: 40px;

@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+.buy_container{
+    flex-direction: column;
+    padding: 30px;
+    position: relative;
+    max-width: 100%;
+}
+
+.buy_container h1{
+    font-weight: 600;
+    font-size: 200px;
+    line-height: 366px;
+    text-align: center;
+}
+
+.buy_text .each_buy{
+    position: absolute;
+    font-family: 'Architects Daughter', cursive;
+    background-size: cover;
+    cursor: pointer;
+
+}
+
+.buy_text .each_buy img{
+    position: absolute;
+    top: -5px;
+    left: -90px;
+    width: 300px;
+}
+
+.each_buy h2{
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 83px;
+}
+
+.each_buy.first{
+    left: 90px;
+    top: 500px;
+}
+
+.each_buy.second{
+    left: 130px;
+    bottom: 300px;
+}
+
+.each_buy.third{
+    right: 90px;
+    top: 500px;
+}
+
+.each_buy.fourth{
+    right: 130px;
+    bottom: 300px;
+}

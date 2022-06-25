@@ -1,0 +1,39 @@
+.stake_container{
+    padding: 50px 0;
+}
+
+.left_stake h1{
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 122px;
+}
+
+.left_stake p{
+    font-weight: 200;
+    font-size: 40px;
+    line-height: 49px;
+    margin-top: 20px;
+}
+
+
+@media screen and (max-width:968px) {
+    .stake_container{
+        flex-direction: column;
+    }
+
+    .left_stake h1{
+        font-size: 30px;
+        line-height: 40px;
+        text-align: center;
+    }
+
+    .left_stake p{
+        font-size: 24px;
+        line-height: 30px;
+        text-align: center;
+    }
+
+    .right_stake img{
+        width: 300px ;
+    }
+}
