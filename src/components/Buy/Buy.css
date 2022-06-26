@@ -53,3 +53,10 @@
     right: 130px;
     bottom: 300px;
 }
+
+
+@media screen and (max-width:968px) {
+    .buy_container{
+        display: none !important;
+    }
+}
