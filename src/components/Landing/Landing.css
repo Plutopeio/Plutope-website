@@ -1,25 +1,30 @@
 .landing_container{
-    margin-top: 50px;
+    justify-content: space-between;
+
 }
 
+
 .left_hero h1{
-    font-weight: 700;
-    font-size: 60px;
-    line-height: 95px;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 80px;
 }
 
 .landing_para{
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 29px;
-    color: #ACACAC;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+    color: #2F91CF;
 }
 
 .join_waitlist_btn{
-    background-color: black !important;
+    background: radial-gradient(405.61% 923.67% at 0% -407.93%, #F7FAFD 0%, #3C53F4 100%);
     padding: 20px !important;
-    font-size: large !important;
-    border-radius: 20px !important;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: uppercase;
+    border-radius: 78px !important;
 }
 
 @media screen and (max-width:968px) {

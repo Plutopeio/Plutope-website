@@ -1,0 +1,56 @@
+.portfolio_container{
+    background: #3C53F4;
+    padding: 50px 70px !important;
+    max-width: 100% !important;
+    position: relative;
+    color: white;
+}
+
+.portfolio_mover{
+    position: absolute;
+    right: 0;
+    top: -140px;
+}
+
+.portfolio_container .border_head{
+    color: #3C53F4; 
+    text-shadow: 0 0 10px #fff;
+}
+
+.portfolio_left{
+    width: 50vw;
+}
+
+.portfolio_container h1{
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 122px;
+    color: white; 
+}
+
+.portfolio_container p{
+    font-size: 28px;
+}
+
+@media screen and (max-width:968px) {
+    .portfolio_mover{
+        display: none;
+    }
+
+    .portfolio_left{
+        width: 100%;
+        text-align: center;
+    }
+
+    .portfolio_left h1{
+        font-size: xx-large;
+        line-height: 50px;
+    }
+
+    .portfolio_left p{
+        font-size: 21px;
+    }
+    br{
+        display: none;
+    }
+}

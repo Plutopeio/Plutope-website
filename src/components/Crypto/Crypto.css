@@ -1,0 +1,60 @@
+
+.crypto_container{
+    gap: 100px;
+}
+
+
+.right_crypto {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 90px;
+    text-align: center;
+}
+
+.right_crypto p{
+    color: #2A3943;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: right;
+}
+
+.left_crypto img{
+    z-index: 1;
+}
+
+.crypto_mover{
+    position: absolute;
+    left: 0;
+    z-index: -1;
+}
+
+@media screen and (max-width:968px) {
+    .crypto_container{
+        flex-direction: column !important;
+        gap: 10px ;
+        justify-content: center;
+    }
+
+    .right_crypto {
+        text-align: center;
+        font-size: 20px;
+        line-height: 50px;
+    }
+
+    .right_crypto p{
+        text-align: center;
+    }
+
+    br{
+        display: none;
+    }
+    
+    .left_crypto img{
+        width: 300px;
+    }
+
+    .crypto_mover{
+        display: none;
+    }
+    
+}

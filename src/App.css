@@ -1,6 +1,11 @@
   
 .MuiBox-root.css-1t6c9ts{
-  justify-content: center;
+  justify-content: flex-end;
+}
+
+@font-face {
+  font-family: gacor;
+  src: url(./assets/GacorPersonalUse-6YnVD.otf);
 }
 
 

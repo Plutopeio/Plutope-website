@@ -8,3 +8,7 @@
     text-align: center;
     overflow: hidden;
 }
+
+.about_container img{
+    margin-left: 120px;
+}

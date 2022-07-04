@@ -1,24 +1,25 @@
 import React from 'react'
 import Landing from "../../components/Landing/Landing"
 import Features from "../../components/Features/Features"
-import Horizontal from "../../components/Horizontal/Horizontal"
-import Manage from "../../components/Manage/Manage"
-import Buy from "../../components/Buy/Buy"
-import Line from "../../components/Line/Line"
-import Enabling from "../../components/Enabling/Enabling"
+import Transfer from "../../components/Transfer/Transfer"
+import Crypto from "../../components/Crypto/Crypto"
+import Portfolio from "../../components/Portfolio/Portfolio"
+
+
+
 import Stake from "../../components/Stake/Stake"
+import Wave from "../../assets/wave.png"
 
 const Home = () => {
   return (
     <div>
-        <Landing/>
-        <Features/>
-        <Horizontal/>
-        <Manage/>
-        <Buy/>
-        <Line/>
-        <Enabling/>
-        <marquee>• Exchange. Anytime. Anywhere at a lightning-fast speed because Time is money.</marquee>
+        <div style={{background:`url(${Wave})` , backgroundSize: "contain" ,backgroundRepeat: "no-repeat"}}>
+          <Landing/>
+          <Features/>
+        </div>
+        <Transfer/>
+        <Crypto/>
+        <Portfolio/>
         <Stake/>
     </div>
   )

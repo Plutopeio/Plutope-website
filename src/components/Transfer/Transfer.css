@@ -1,0 +1,46 @@
+
+
+.left_transfer {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 90px;
+}
+
+.left_transfer p{
+    color: #2A3943;
+    font-size: 20px;
+    line-height: 25px;
+
+}
+
+.right_transfer img{
+    z-index: 1;
+}
+
+.transfer_mover{
+    position: absolute;
+    right: 0;
+    z-index: -1;
+}
+
+@media screen and (max-width:968px) {
+    .transfer_container{
+        flex-direction: column-reverse !important;
+        gap: 10px ;
+    }
+
+    .left_transfer {
+        text-align: center;
+        font-size: 20px;
+        line-height: 50px;
+    }
+    
+    .right_transfer img{
+        width: 300px;
+    }
+
+    .transfer_mover{
+        display: none;
+    }
+    
+}

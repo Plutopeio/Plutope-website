@@ -4,6 +4,13 @@
     line-height: 95px;
 }
 
+.right_feature p{
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    color: #2A3943;
+}
+
 @media screen and (max-width:968px) {
     .features_container{
         flex-direction: column;

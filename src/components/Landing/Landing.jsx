@@ -1,7 +1,7 @@
 import React from 'react'
 import Container from '@mui/material/Container';
 import './Landing.css'
-import Phone from "../../assets/hero_phone.png"
+import Card from "../../assets/cards.png"
 import { Button } from '@mui/material';
 
 const Landing = () => {
@@ -10,13 +10,13 @@ const Landing = () => {
       <div className="left_hero">
         <h1>Spend your crypto 
         <span style={{color: "#3C53F4"}}> anywhere in the world </span>
-        with a Plutope debit card.</h1>
-        <p className = "landing_para">Say hello👋 to financial freedom.</p>
+        with a <span style={{color: "#3C53F4"}}>Plutope debit card.</span></h1>
+        <p className = "landing_para">and say Hello 👋🏻 to financial freedom.</p>
         <Button variant='contained' href="" className="join_waitlist_btn">Join The Waitlist</Button>
       </div>
 
       <div className="right_hero">
-        <img src={Phone} alt="" width="300"/>
+        <img src={Card} alt="" width="400"/>
       </div>
     </Container>
   )
