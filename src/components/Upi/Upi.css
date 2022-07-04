@@ -1,0 +1,50 @@
+.upi_container{
+    background: #3C53F4;
+    padding: 50px 70px !important;
+    max-width: 100% !important;
+    position: relative;
+    color: white;
+    align-items: baseline;
+}
+
+.right_upi .border_head{
+    color: #3C53F4; 
+    text-shadow: 0 0 10px #fff;
+}
+
+.right_upi h1{
+    text-align: right;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 122px;
+}
+
+
+.upi_mover{
+    position: absolute;
+    left: 0;
+    bottom: -307px;
+}
+
+.right_upi p{
+    padding: 0 0 0 400px;
+    text-align: right;
+}
+
+
+@media screen and (max-width:968px) {
+    .right_upi p{
+        padding: 0;
+        text-align: center;
+    }
+
+    .right_upi h1{
+        text-align: center;
+        font-size: xx-large;
+        line-height: 50px;
+    }
+
+    .upi_mover{
+        display: none;
+    }
+}
