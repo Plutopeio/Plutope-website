@@ -5,6 +5,8 @@ import Transfer from "../../components/Transfer/Transfer"
 import Crypto from "../../components/Crypto/Crypto"
 import Portfolio from "../../components/Portfolio/Portfolio"
 import Upi from "../../components/Upi/Upi"
+import Secure from "../../components/Secure/Secure"
+
 
 
 
@@ -24,6 +26,7 @@ const Home = () => {
         <Portfolio/>
         <Upi/>
         <Stake/>
+        <Secure/>
     </div>
   )
 }

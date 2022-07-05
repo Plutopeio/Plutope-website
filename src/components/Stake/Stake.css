@@ -2,6 +2,7 @@
     padding: 50px 70px !important;
     max-width: 100% !important;
     background: #3C53F4;
+    position: relative;
 }
 
 .left_stake .border_head{
@@ -28,6 +29,12 @@
     color: white;
 }
 
+.stake_mover{
+    position: absolute;
+    right: 0;
+    bottom: -150px;
+}
+
 
 @media screen and (max-width:968px) {
     .stake_container{
@@ -49,5 +56,9 @@
 
     .right_stake img{
         width: 300px ;
+    }
+
+    .stake_mover{
+        display: none;
     }
 }

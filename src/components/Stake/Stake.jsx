@@ -2,10 +2,12 @@ import React from "react";
 import Container from "@mui/material/Container";
 import "./Stake.css";
 import Polygon from "../../assets/polygon.png"
+import Star from "../../assets/star.png"
 
 const Landing = () => {
   return (
     <Container className="container stake_container">
+      <img src={Star} alt="" className="stake_mover" width="350" />
       <div className="left_stake">
         <h1 className="border_head">Stake your favorite crypto.</h1>
         <h1 className="earn_head">Earn Rewards.</h1>
