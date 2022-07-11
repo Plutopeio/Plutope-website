@@ -27,6 +27,7 @@
     .transfer_container{
         flex-direction: column-reverse !important;
         gap: 10px ;
+        padding-top: 20px;
     }
 
     .left_transfer {

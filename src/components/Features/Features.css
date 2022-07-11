@@ -1,3 +1,11 @@
+.features_container{
+    padding-bottom: 140px;
+    background: url(../../assets/rays.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: -260px -100px;
+}
+
 .right_feature h1{
     font-weight: 700;
     font-size: 80px;
@@ -8,7 +16,15 @@
     font-weight: 400;
     font-size: 36px;
     line-height: 44px;
-    color: #2A3943;
+    color: white;
+}
+
+.scroll-down{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 10px;
+    text-decoration: none;
 }
 
 @media screen and (max-width:968px) {
@@ -18,6 +34,10 @@
     .right_feature h1{
         font-size: 30px;
         line-height: 40px;
+        text-align: center;
+    }
+
+    .right_feature p{
         text-align: center;
     }
 

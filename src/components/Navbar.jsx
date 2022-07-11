@@ -40,7 +40,7 @@ const ResponsiveAppBar = () => {
   return (
     <AppBar
       position="static"
-      style={{ backgroundColor: "white", color: "black" ,boxShadow:"none" , display: "flex" , justifyContent: "space-between"}}
+      style={{ backgroundColor: "#3C53F4", color: "white" ,boxShadow:"none" , display: "flex" , justifyContent: "space-between"}}
     >
       <Container maxWidth="xl" style={{ display: "flex" , justifyContent: "space-between"}}>
         <Toolbar disableGutters style={{ display: "flex" , justifyContent: "space-between" , width : "100%"}}>
@@ -94,7 +94,7 @@ const ResponsiveAppBar = () => {
             >
               {pages.map((page) => (
                 <MenuItem key={page.name} onClick={handleCloseNavMenu}>
-                  <Typography textAlign="center" style={{ color: "#000" }} href = {page.link}>
+                  <Typography textAlign="center" style={{ color: "#fff" }} href = {page.link}>
                     {page.name}
                   </Typography>
                 </MenuItem>
@@ -125,7 +125,7 @@ const ResponsiveAppBar = () => {
                 key={page.name}
                 onClick={handleCloseNavMenu}
                 sx={{ my: 2, color: "white", display: "block" }}
-                style={{ color: "#000" }}
+                style={{ color: "#fff" }}
                 href = {page.link}
               >
                 {page.name}

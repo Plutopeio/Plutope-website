@@ -3,6 +3,8 @@ import Container from "@mui/material/Container";
 import "./Upi.css";
 import Triangle from "../../assets/triangle.png";
 import IMPS from "../../assets/imps.png"
+import Debit from "../../assets/debit.png"
+
 
 const Upi = () => {
   return (
@@ -14,10 +16,14 @@ const Upi = () => {
       <div className="right_upi">
         <h1>
             <span className="border_head">
-                By Any Means Necessary<br />
+              Buy Crypto In One Tap<br />
             </span>
         </h1>
-        <p>PlutoPe accepts Debit Cards, Credit Cards, UPI, and IMPS, so you can seamlessly and securely purchase Cryptocurrency from PlutoPe’s catalogue of over 130 cryptocurrencies.</p>
+        <p>Plutope accepts</p>
+        <div className="debit-div" style={{display: "flex" , justifyContent: "flex-end"}}>
+          <img src={Debit} alt="" />
+        </div>
+        <p>Seamlessly and securely purchase Cryptocurrency from PlutoPe’s catalogue of over 130 cryptocurrencies.</p>
       </div>
     </Container>
   );

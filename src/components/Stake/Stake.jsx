@@ -4,7 +4,7 @@ import "./Stake.css";
 import Polygon from "../../assets/polygon.png"
 import Star from "../../assets/star.png"
 
-const Landing = () => {
+const Stake = () => {
   return (
     <Container className="container stake_container">
       <img src={Star} alt="" className="stake_mover" width="350" />
@@ -21,4 +21,4 @@ PlutoPe will find you the best returns for the lowest risk.</p>
   );
 };
 
-export default Landing;
+export default Stake;

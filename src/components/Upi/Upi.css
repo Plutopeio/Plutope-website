@@ -29,10 +29,33 @@
 .right_upi p{
     padding: 0 0 0 400px;
     text-align: right;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+    text-align: right;
+
+    color: #FFFFFF;
 }
 
 
 @media screen and (max-width:968px) {
+    .upi_container{
+        padding: 0 !important;
+        justify-content: center !important;
+    }
+    .left_upi{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .left_upi img{
+        width: 300px;
+    }
+
+
+
     .right_upi p{
         padding: 0;
         text-align: center;
@@ -42,6 +65,15 @@
         text-align: center;
         font-size: xx-large;
         line-height: 50px;
+    }
+
+    .right_upi .debit-div{
+        justify-content: center !important;
+
+    }
+
+    .right_upi img{
+        width: 200px;
     }
 
     .upi_mover{

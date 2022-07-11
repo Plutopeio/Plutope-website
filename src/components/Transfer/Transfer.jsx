@@ -6,6 +6,7 @@ import Heptagon from "../../assets/Heptagon.png"
 
 const Transfer = () => {
   return (
+    <section id='transfer'>
     <Container className='container transfer_container'>
         <img src={Heptagon} alt="" className='transfer_mover' width="400"/>
         <div className="left_transfer">
@@ -19,6 +20,7 @@ const Transfer = () => {
             <img src={Payment} alt="" width="400"/>
         </div>
     </Container>
+    </section>
   )
 }
 

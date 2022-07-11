@@ -1,5 +1,11 @@
 .landing_container{
     justify-content: space-between;
+    color: white;
+    position: relative;
+    background: url(../../assets/wireframe.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-bottom: 250px;
 
 }
 
@@ -14,20 +20,38 @@
     font-weight: 400;
     font-size: 28px;
     line-height: 34px;
-    color: #2F91CF;
+    color: white;
 }
 
 .join_waitlist_btn{
-    background: radial-gradient(405.61% 923.67% at 0% -407.93%, #F7FAFD 0%, #3C53F4 100%);
+    background: #FFFFFF;
     padding: 20px !important;
+    color: #3C53F4;
     font-weight: 600;
     font-size: 24px;
     line-height: 29px;
     text-transform: uppercase;
     border-radius: 78px !important;
+    box-shadow: none;
+    border:none;
+    cursor: pointer;
 }
 
+.right_hero img{
+    z-index: 2;
+}
+
+.landing_mover{
+    position: absolute;
+    bottom: 0;
+    z-index: 0;
+}
+
+
 @media screen and (max-width:968px) {
+    .landing_container{
+        background: none;
+    }
     .left_hero{
         display: flex;
         flex-direction: column;
@@ -49,5 +73,9 @@
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+
+    .landing_mover{
+        display: none;
     }
 }
