@@ -2,10 +2,16 @@ import React from "react";
 import Container from "@mui/material/Container";
 import "./Portfolio.css";
 import WhiteHeptagon from "../../assets/white_heptagon.png";
+import ExpandCircleDownIcon from '@mui/icons-material/ExpandCircleDown';
+import {Link} from "react-scroll"
+import Transfers from "../../assets/Transfers.png"
 
 const Portfolio = () => {
   return (
-    <Container className="container portfolio_container">
+    <Container className="container portfolio_container" id = "portfolio">
+      <Link to = "upi" className = "scroll_down_arrow" smooth = {true}>
+        <ExpandCircleDownIcon style = {{fontSize : "50px"}}/>
+      </Link>
       <img src={WhiteHeptagon} alt="" className="portfolio_mover" width="400" />
       <div className="portfolio_left">
         <h1>
@@ -32,6 +38,9 @@ const Portfolio = () => {
             <br /> to begin
           </p>
         </b>
+      </div>
+      <div className="portfolio_right" style = {{zIndex : "2"}}>
+        <img src={Transfers} alt="" width = "300" />
       </div>
     </Container>
   );

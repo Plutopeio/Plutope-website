@@ -35,6 +35,9 @@
     box-shadow: none;
     border:none;
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
 }
 
 .right_hero img{

@@ -40,6 +40,7 @@ const ResponsiveAppBar = () => {
   return (
     <AppBar
       position="static"
+      id = "landing"
       style={{ backgroundColor: "#3C53F4", color: "white" ,boxShadow:"none" , display: "flex" , justifyContent: "space-between"}}
     >
       <Container maxWidth="xl" style={{ display: "flex" , justifyContent: "space-between"}}>

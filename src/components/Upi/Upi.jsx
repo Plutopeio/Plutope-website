@@ -7,6 +7,8 @@ import Debit from "../../assets/debit.png";
 import Credit from "../../assets/credit.png";
 import IMP from "../../assets/imp.png";
 import UPI from "../../assets/upi.png";
+import ExpandCircleDownIcon from '@mui/icons-material/ExpandCircleDown';
+import {Link} from "react-scroll"
 
 
 import TextTransition, { presets } from "react-text-transition";
@@ -40,7 +42,10 @@ const Upi = () => {
     return () => clearTimeout(intervalId);
   }, []);
   return (
-    <Container className="container upi_container">
+    <Container className="container upi_container" id = "upi">
+      <Link to = "stake" className = "scroll_down_arrow" smooth = {true}>
+        <ExpandCircleDownIcon style = {{fontSize : "50px"}}/>
+      </Link>
       <img src={Triangle} alt="" className="upi_mover" width="600" />
       <div className="left_upi">
         <img src={IMPS} alt="" width="450" />

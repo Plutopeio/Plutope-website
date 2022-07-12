@@ -6,6 +6,8 @@ import Emoji from "../../assets/emoji.png";
 import Convenient from "../../assets/convenient.png";
 import Instant from "../../assets/instant.png";
 import Versatile from "../../assets/versatile.png";
+import ExpandCircleDownIcon from '@mui/icons-material/ExpandCircleDown';
+import {Link} from "react-scroll"
 
 
 
@@ -39,7 +41,10 @@ const Secure = () => {
     return () => clearTimeout(intervalId);
   }, []);
   return (
-    <Container className="container secure_container">
+    <Container className="container secure_container" id = "secure" style = {{position: "relative"}}>
+      <Link to = "last" className = "scroll_down_arrow" smooth = {true}>
+        <ExpandCircleDownIcon style = {{fontSize : "50px" , color: "#3C53F4"}}/>
+      </Link>
       <h1>
         PlutoPe is <br />
         <div style={{ color: "#3C53F4" ,  height: "90px" , margin : "0" , padding : "0"}}>
