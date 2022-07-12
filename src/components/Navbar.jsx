@@ -12,14 +12,14 @@ import MenuItem from "@mui/material/MenuItem";
 
 const pages = [
   {
-    name: "About Us",
+    name: "Cards",
     link: "/#/about",
   },
   {
-    name: "Explore",
+    name: "Our Token",
   },
   {
-    name: "Contact Us",
+    name: "Team",
   },
 ];
 
@@ -125,7 +125,7 @@ const ResponsiveAppBar = () => {
                 key={page.name}
                 onClick={handleCloseNavMenu}
                 sx={{ my: 2, color: "white", display: "block" }}
-                style={{ color: "#fff" }}
+                style={{ color: "#fff" , textTransform : "none"}}
                 href = {page.link}
               >
                 {page.name}
