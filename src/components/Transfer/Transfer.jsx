@@ -1,7 +1,8 @@
 import React from 'react'
 import Container from '@mui/material/Container';
 import './Transfer.css'
-import Payment from "../../assets/payment.png"
+import Mockup from "../../assets/Mockup.png"
+
 import Heptagon from "../../assets/Heptagon.png"
 import ExpandCircleDownIcon from '@mui/icons-material/ExpandCircleDown';
 import {Link} from "react-scroll"
@@ -22,7 +23,7 @@ const Transfer = () => {
                 Say goodbye to entering  lengthy wallet addresses and selecting different networks.</p>
         </div>
         <div className="right_transfer">
-            <img src={Payment} alt="" width="400"/>
+            <img src={Mockup} alt="" width="250"/>
         </div>
     </Container>
     </div>
