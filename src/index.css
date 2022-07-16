@@ -7,6 +7,7 @@
   scroll-snap-type: y proximity;
 }
 
+
 .container{
   display: flex !important;
   align-items: center;
@@ -22,13 +23,16 @@
   right: 120px;
   cursor: pointer;
   z-index: 1;
-}
+} 
 
 
 @media screen and (max-width:968px) {
   .container{
     flex-direction: column-reverse;
     height: 100%;
+  }
+  .scroll_down_arrow{
+    display: none;
   }
 }
 

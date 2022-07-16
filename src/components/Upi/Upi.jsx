@@ -43,7 +43,7 @@ const Upi = () => {
   }, []);
   return (
     <Container className="container upi_container" id = "upi">
-      <Link to = "stake" className = "scroll_down_arrow" smooth = {true}>
+      <Link to = "stake" className = "scroll_down_arrow" smooth = {true} style = {{bottom : "-8px !important"}}>
         <ExpandCircleDownIcon style = {{fontSize : "50px"}}/>
       </Link>
       <img src={Triangle} alt="" className="upi_mover" width="600" />

@@ -1,14 +1,31 @@
 .about_container{
-    flex-direction: column;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 30px;
     padding: 50px 100px;
-    text-align: center;
     overflow: hidden;
+    background: #3C53F4;
+    height: 88vh;
+    color: white;
 }
 
-.about_container img{
-    margin-left: 120px;
+.about_inner_container{
+    flex-direction: column;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: left;
+    margin-top: 70px;
+}
+
+
+.about_bottom{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 0;
+}
+
+.about_top{
+    position: absolute;
+    top: -0px;
+    left: 0;
+    z-index: 0;
 }

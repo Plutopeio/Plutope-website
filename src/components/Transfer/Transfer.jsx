@@ -19,8 +19,12 @@ const Transfer = () => {
             <h1 className='left_transfer_head'>Transfers? Easy.<br/>
                 <span style={{color:"#3C53F4"}}>Anytime, Anywhere.</span>
             </h1>
-            <p>Send crypto to friends by entering their phone numbers or simply scanning their QR codes.
-                Say goodbye to entering  lengthy wallet addresses and selecting different networks.</p>
+            <p style = {{fontWeight : "300"}}>Send crypto to friends by </p>
+            <ul style =  {{fontSize : "20px",margin: "0 30px",padding: "0"}}>
+              <li style = {{padding: "0" , margin: "0"}}><b>Entering their phone numbers</b> <span style = {{fontWeight : "300"}}>or</span> </li>
+              <li style = {{padding: "0" , margin: "0"}}><b>Simply scanning their QR codes </b></li>
+            </ul>
+            <p style = {{fontWeight : "300" , paddingRight: "200px"}}>Say goodbye to entering lengthy wallet addresses and selecting different networks.</p>
         </div>
         <div className="right_transfer">
             <img src={Mockup} alt="" width="250"/>

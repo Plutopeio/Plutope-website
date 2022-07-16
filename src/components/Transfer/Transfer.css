@@ -3,14 +3,13 @@
 .left_transfer {
     font-weight: 600;
     font-size: 32px;
-    line-height: 90px;
 }
 
 .left_transfer p{
     color: #2A3943;
     font-size: 20px;
     line-height: 25px;
-
+    margin: 20px 0;
 }
 
 .right_transfer img{

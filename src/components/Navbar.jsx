@@ -12,7 +12,7 @@ import MenuItem from "@mui/material/MenuItem";
 
 const pages = [
   {
-    name: "Cards",
+    name: "About",
     link: "/#/about",
   },
   {
@@ -117,6 +117,7 @@ const ResponsiveAppBar = () => {
               color: "inherit",
               textDecoration: "none",
             }}
+            href="/"
           >
             PLUTOPE
           </Typography>
