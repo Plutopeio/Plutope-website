@@ -8,7 +8,7 @@
 .left_stake .border_head{
     font-weight: 700;
     font-size: 100px;
-    line-height: 122px;
+    line-height: 100px;
     color: #3C53F4; 
     text-shadow: 0 0 10px #fff;
 }
@@ -16,7 +16,7 @@
 .left_stake .earn_head{
     font-weight: 700;
     font-size: 100px;
-    line-height: 90px;
+    line-height: 70px;
     color: white;
 }
 
@@ -36,7 +36,7 @@
 }
 
 
-@media screen and (max-width:968px) {
+@media screen and (max-width:1100px) {
     .stake_container{
         flex-direction: column;
         padding: 50px 20px !important;

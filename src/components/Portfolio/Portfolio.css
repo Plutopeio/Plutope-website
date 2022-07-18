@@ -24,7 +24,7 @@
 .portfolio_container h1{
     font-weight: 700;
     font-size: 100px;
-    line-height: 122px;
+    line-height: 100px;
     color: white; 
 }
 
@@ -32,9 +32,13 @@
     font-size: 28px;
 }
 
-@media screen and (max-width:968px) {
+@media screen and (max-width:1100px) {
     .portfolio_mover{
         display: none;
+    }
+
+    .portfolio_container{
+        padding: 50px 10px !important;
     }
 
     .portfolio_left{

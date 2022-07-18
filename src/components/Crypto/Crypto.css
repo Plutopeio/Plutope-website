@@ -28,7 +28,7 @@
     z-index: -1;
 }
 
-@media screen and (max-width:968px) {
+@media screen and (max-width:1100px) {
     .crypto_container{
         flex-direction: column !important;
         gap: 10px ;

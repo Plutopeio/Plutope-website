@@ -45,7 +45,7 @@ const Secure = () => {
       <Link to = "last" className = "scroll_down_arrow" smooth = {true}>
         <ExpandCircleDownIcon style = {{fontSize : "50px" , color: "#3C53F4"}}/>
       </Link>
-      <h1>
+      <h1 className = "secure_center">
         PlutoPe is <br />
         <div style={{ color: "#3C53F4" ,  height: "90px" , margin : "0" , padding : "0"}}>
         <span >

@@ -43,7 +43,7 @@ const Upi = () => {
   }, []);
   return (
     <Container className="container upi_container" id = "upi">
-      <Link to = "stake" className = "scroll_down_arrow" smooth = {true} style = {{bottom : "-8px !important"}}>
+      <Link to = "stake" className = "scroll_down_arrow upi_scroll_down" smooth = {true} style = {{bottom : "-8px !important"}}>
         <ExpandCircleDownIcon style = {{fontSize : "50px"}}/>
       </Link>
       <img src={Triangle} alt="" className="upi_mover" width="600" />
@@ -66,7 +66,7 @@ const Upi = () => {
           <h1>
             <TextTransition springConfig={presets.default} >
               <div style = {{display : "flex" , alignItems : "center" ,gap: "20px"}}>
-                <img src={TEXTS[index % TEXTS.length].img} alt="" />
+                <img src={TEXTS[index % TEXTS.length].img} alt="" className = "changing_image"/>
                 {TEXTS[index % TEXTS.length].name}
                 </div>
             </TextTransition>

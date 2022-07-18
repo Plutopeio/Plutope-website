@@ -5,18 +5,19 @@ import { Link } from "react-scroll";
 import Twitter from "../../assets/Twitter.png"
 import Discord from "../../assets/Discord.png"
 import Instagram from "../../assets/Instagram.png"
+import Telegram from "../../assets/Telegram.png"
+
 import {Button} from "@mui/material";
 
 
 const Footer = () => {
   return (
     <div id = "last" style={{ position: "relative" }}>
-      <Link to="landing" className="scroll_down_arrow" smooth={true}>
+      <Link to="landing" className="scroll_down_arrow to_top" smooth={true}>
         <ArrowCircleUpIcon style={{ fontSize: "50px", color: "#3C53F4" }} />
       </Link>
       <div
         className="footer_container"
-        
       >
         <h1>
           Even more exciting features are coming, Join the waitlist and get
@@ -40,9 +41,10 @@ const Footer = () => {
             <a href="">Installation</a>
           </div>
           <div className="socials">
-            <a href=""><img src={Twitter} alt="" width = "50"/></a>
-            <a href=""><img src={Discord} alt="" width = "50"/></a>
-            <a href=""><img src={Instagram} alt="" width = "50"/></a>
+            <a href=""><img src={Twitter} alt="" width = "30"/></a>
+            <a href=""><img src={Discord} alt="" width = "30"/></a>
+            <a href=""><img src={Instagram} alt="" width = "30"/></a>
+            <a href=""><img src={Telegram} alt="" width = "30"/></a>
           </div>
         </div>
 
@@ -56,7 +58,7 @@ const Footer = () => {
             <a href="">Careers</a>
           </div>
 
-          <div className="header" >
+          <div className="header" style = {{marginTop: "40px"}}>
             Legal
           </div>
           <div className="links">
@@ -86,9 +88,9 @@ const Footer = () => {
           </div>
           <div className="question">
             <p style = {{marginBottom: "10px"}}>Have a support question?</p>
-            <Button variant = "contained" style = {{borderRadius: "78px",background: "#3C53F4"}}>GET IN TOUCH</Button>
+            <Button className = "get_in_touch" variant = "contained" style = {{borderRadius: "78px",background: "#3C53F4" , marginTop : "16px"}}>GET IN TOUCH</Button>
           </div>
-          <div className="header">
+          <div className="header" style = {{marginTop: "62px"}}>
             You Call Us
           </div>
           <div className="question">

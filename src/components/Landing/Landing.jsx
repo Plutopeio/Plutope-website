@@ -9,7 +9,7 @@ import {Link} from "react-scroll"
 
 const Landing = () => {
   return (
-    <div >
+    <div style = {{position: "relative"}}>
       <Link to = "feature" className = "scroll_down_arrow" smooth = {true} >
         <ExpandCircleDownIcon style = {{fontSize : "50px" ,color: "white"}}/>
       </Link>

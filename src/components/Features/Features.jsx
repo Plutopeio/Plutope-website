@@ -9,7 +9,7 @@ const Features = () => {
   return (
     <Container className="container features_container" id = "feature">
       <div className="left_feature">
-        <img src={Phone} alt="" width="250" />
+        <img src={Phone} alt="" />
       </div>
       <div className="right_feature">
         <h1 style={{ color: "white" }}>The PlutoPe App</h1>
