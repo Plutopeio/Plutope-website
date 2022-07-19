@@ -11,7 +11,7 @@ const Transfer = () => {
   return (
     <div style = {{position:"relative"}} id = "transfer">
      <Link to = "crypto" className = "scroll_down_arrow" smooth = {true}>
-        <ExpandCircleDownIcon style = {{fontSize : "50px" , color: "#3C53F4"}}/>
+        <ExpandCircleDownIcon style = {{fontSize : "50px" , color: "#3C53F4" , background: "white",borderRadius: "50%"}}/>
       </Link>
     <Container className='container transfer_container'>
         <img src={Heptagon} alt="" className='transfer_mover' width="400"/>

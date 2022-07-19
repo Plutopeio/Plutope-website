@@ -11,6 +11,7 @@ import Secure from "../../components/Secure/Secure";
 
 import Stake from "../../components/Stake/Stake";
 import Footer from "../../components/Footer/Footer"
+import Keys from "../../assets/not_your.png"
 
 
 
@@ -32,6 +33,9 @@ const Home = () => {
       </div>
       <div>
         <Portfolio />
+      </div>
+      <div>
+        <img src={Keys} alt="" style = {{width:"100vw"}}/>
       </div>
       <div>
         <Upi />

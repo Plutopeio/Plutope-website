@@ -10,7 +10,7 @@ const Stake = () => {
   return (
     <Container className="container stake_container" id = "stake">
        <Link to = "secure" className = "scroll_down_arrow" smooth = {true}>
-        <ExpandCircleDownIcon style = {{fontSize : "50px" , color: "white"}}/>
+        <ExpandCircleDownIcon style = {{fontSize : "50px" , color: "white" , background: "#3C53F4",borderRadius: "50%"}}/>
       </Link>
       <img src={Star} alt="" className="stake_mover" width="350" />
       <div className="left_stake">

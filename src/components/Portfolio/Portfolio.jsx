@@ -10,7 +10,7 @@ const Portfolio = () => {
   return (
     <Container className="container portfolio_container" id = "portfolio">
       <Link to = "upi" className = "scroll_down_arrow" smooth = {true}>
-        <ExpandCircleDownIcon style = {{fontSize : "50px"}}/>
+        <ExpandCircleDownIcon style = {{fontSize : "50px",background: "#3C53F4" , borderRadius: "50%"}}/>
       </Link>
       <img src={WhiteHeptagon} alt="" className="portfolio_mover" width="400" />
       <div className="portfolio_left">

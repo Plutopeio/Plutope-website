@@ -10,8 +10,8 @@ import {Link} from "react-scroll"
 const Landing = () => {
   return (
     <div style = {{position: "relative"}}>
-      <Link to = "feature" className = "scroll_down_arrow" smooth = {true} >
-        <ExpandCircleDownIcon style = {{fontSize : "50px" ,color: "white"}}/>
+      <Link to = "feature" className = "scroll_down_arrow" smooth = {true} style = {{bottom: "80px"}}>
+        <ExpandCircleDownIcon style = {{fontSize : "50px" ,color: "white" ,background: "#3C53F4"}}/>
       </Link>
     
     <Container className='container landing_container'>
