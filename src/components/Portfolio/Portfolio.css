@@ -1,5 +1,10 @@
-.portfolio_container{
+#portfolio {
+    width: 100%;
     background: #3C53F4;
+}
+
+.portfolio_container{
+    /*background: #3C53F4;*/
     padding: 50px 70px !important;
     max-width: 100% !important;
     position: relative;
@@ -42,7 +47,16 @@
     }
 
     .portfolio_container{
-        padding: 50px 10px !important;
+        /*padding: 50px 10px !important;*/
+    }
+
+    #portfolio {
+        background: url(../../assets/mobile_screens/portfolio.png) no-repeat center center;
+        -webkit-background-size: contain;
+        -moz-background-size: contain;
+        -o-background-size: contain;
+        background-size: contain;
+ 
     }
 
     .portfolio_left{

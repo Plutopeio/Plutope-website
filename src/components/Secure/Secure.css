@@ -30,6 +30,13 @@
 
     .secure_container{
         padding: 70px 20px !important;
+        background: url(../../assets/mobile_screens/secure.png) no-repeat center center;
+        -webkit-background-size: contain;
+        -moz-background-size: contain;
+        -o-background-size: contain;
+        background-size: contain;
+        background-position-y: bottom;
+ 
     }
     .secure_container h1{
         font-weight: 400;
@@ -37,6 +44,7 @@
         line-height: 40px !important;
         text-align: center;
     }
+
     br{
         display: none;
     }

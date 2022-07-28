@@ -70,7 +70,11 @@
 
 @media screen and (max-width:1100px) {
     .landing_container{
-        background: none;
+        background: url(../../assets/mobile_screens/landing.png) no-repeat center center;
+        -webkit-background-size: contain;
+        -moz-background-size: contain;
+        -o-background-size: contain;
+        background-size: contain;
     }
     .left_hero{
         display: flex;

@@ -30,6 +30,12 @@
         flex-direction: column-reverse !important;
         gap: 10px ;
         padding-top: 20px;
+        background: url(../../assets/mobile_screens/transfer.png) no-repeat center center;
+        -webkit-background-size: contain;
+        -moz-background-size: contain;
+        -o-background-size: contain;
+        background-size: contain;
+ 
     }
 
     .left_transfer {
