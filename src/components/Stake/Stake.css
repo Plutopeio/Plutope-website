@@ -7,7 +7,7 @@
 
 .left_stake .border_head{
     font-weight: 700;
-    font-size: 100px;
+    font-size: 5.9vw;
     line-height: 100px;
     color: #3C53F4; 
     text-shadow: 0 0 10px #fff;
@@ -15,7 +15,7 @@
 
 .left_stake .earn_head{
     font-weight: 700;
-    font-size: 100px;
+    font-size: 5.5vw;
     line-height: 70px;
     color: white;
 }

@@ -9,6 +9,9 @@
     font-size: 32px;
     line-height: 90px;
     text-align: right;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
 
 .right_crypto p{
@@ -16,6 +19,7 @@
     font-size: 20px;
     line-height: 25px;
     text-align: right;
+    font-weight: 300;
 }
 
 .left_crypto img{

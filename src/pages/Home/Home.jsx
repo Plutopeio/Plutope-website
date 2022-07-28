@@ -4,6 +4,7 @@ import Navbar from "../../components/Navbar"
 import Landing from "../../components/Landing/Landing";
 import Features from "../../components/Features/Features";
 import Transfer from "../../components/Transfer/Transfer";
+import Scan from "../../components/Scan/Scan";
 import Crypto from "../../components/Crypto/Crypto";
 import Portfolio from "../../components/Portfolio/Portfolio";
 import Upi from "../../components/Upi/Upi";
@@ -27,6 +28,9 @@ const Home = () => {
       </div>
       <div>
         <Transfer />
+      </div>
+      <div>
+        <Scan />
       </div>
       <div>
         <Crypto />

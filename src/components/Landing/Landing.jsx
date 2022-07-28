@@ -27,7 +27,7 @@ const Landing = () => {
         </button>
       </div>
       <div className="right_hero">
-        <img src={Card} alt="" width="400"/>
+        <img src={Card} alt="" width="443"/>
       </div>
       {/* <img src={Wireframe} alt="" className="landing_mover" width={1200}/> */}
     </Container>

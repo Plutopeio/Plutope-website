@@ -5,6 +5,8 @@ import Card from "../../assets/Card.png"
 import Vector from "../../assets/Vector.png"
 import ExpandCircleDownIcon from '@mui/icons-material/ExpandCircleDown';
 import {Link} from "react-scroll"
+import Right from "../../assets/right_white.png"
+
 
 const Crypto = () => {
   return (
@@ -20,10 +22,16 @@ const Crypto = () => {
             <img src={Card} alt="" width="500"/>
         </div>
         <div className="right_crypto">
-            <h1 className='left_crypto_head'>Crypto,<br/> 
-                    <span style={{color:"#3C53F4"}}>Instantly.</span>
+            <h1 className='left_crypto_head'>Spend crypto,<br/> 
+                    <span style={{color:"#3C53F4"}}>with a tap.</span>
                 </h1>
-                <p>The PlutoPe Debit card converts your<br/> crypto into cash the moment you<br/> make a transaction. It’s the debit card<br/> from the future, at your fingertips.</p>
+                <p>Spend your crypto currencies<br/> anywhere in the world and get<br/> rewarded with Plutope debit card<br/><b>Accepted worldwide.</b></p>
+                <div style={{display:"flex" , justifyContent: "center"}}>
+                  <button  href="" className="find_out_btn">
+                    <span>Find Out More</span>
+                    <img src={Right} alt="" />
+                  </button>
+                </div>
         </div>
     </Container>
     </div>

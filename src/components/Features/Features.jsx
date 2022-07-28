@@ -12,8 +12,8 @@ const Features = () => {
         <img src={Phone} alt="" />
       </div>
       <div className="right_feature">
-        <h1 style={{ color: "white" }}>The PlutoPe App</h1>
-        <p>One App.<br/> Countless cool features.<br/> <b>Endless possibilities.</b></p>
+        <h1 style={{ color: "white" }}>PlutoPe Wallet</h1>
+        <p>One App.<br/> Decentralised to the core.<br/> Non Custodial.<br/>Endless possibilities.<br/><b>We mean it.</b></p>
         <Link to = "transfer" className="scroll-down" smooth = {true}> <img src={Down} alt="" style = {{cursor: "pointer"}}/> <p>Scroll To Find Out</p>  </Link>
       </div>
     </Container>

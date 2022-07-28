@@ -53,7 +53,7 @@ const Upi = () => {
       <div className="right_upi">
         <h1>
           <span className="border_head">
-            Buy Crypto In One Tap
+            Buy 250+<br/>Crypto Assets
             <br />
           </span>
         </h1>

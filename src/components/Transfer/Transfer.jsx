@@ -10,21 +10,20 @@ import {Link} from "react-scroll"
 const Transfer = () => {
   return (
     <div style = {{position:"relative"}} id = "transfer">
-     <Link to = "crypto" className = "scroll_down_arrow" smooth = {true}>
+     <Link to = "scan" className = "scroll_down_arrow" smooth = {true}>
         <ExpandCircleDownIcon style = {{fontSize : "50px" , color: "#3C53F4" , background: "white",borderRadius: "50%"}}/>
       </Link>
     <Container className='container transfer_container'>
         <img src={Heptagon} alt="" className='transfer_mover' width="400"/>
         <div className="left_transfer">
-            <h1 className='left_transfer_head'>Transfers? Easy.<br/>
-                <span style={{color:"#3C53F4"}}>{" "}Anytime, Anywhere.</span>
+            <h1 className='left_transfer_head'>Send or Receive<br/> crypto for  
+                <span style={{color:"#3C53F4"}}>{" "}free</span><br/>
+                and instantly
             </h1>
-            <p style = {{fontWeight : "300"}}>Send crypto to friends by </p>
-            <ul style =  {{fontSize : "20px",margin: "0 30px",padding: "0"}}>
-              <li style = {{padding: "0" , margin: "0"}} className = "list_item"><b>Entering their phone numbers</b> <span style = {{fontWeight : "300"}}>or</span> </li>
-              <li style = {{padding: "0" , margin: "0"}} className = "list_item"><b>Simply scanning their QR codes </b></li>
-            </ul>
-            <p style = {{fontWeight : "300" , paddingRight: "200px"}} className = "goodbye">Say goodbye to entering lengthy wallet addresses and selecting different networks.</p>
+            <div className='transfer_para'>
+              <p style = {{fontWeight : "300"}}>Send crypto by <b>entering Phone number, username, email or by scanning a QR code.</b> No need to enter a lengthy wallet address or network selection. </p>
+              <p style = {{fontWeight : "300" }} className = "goodbye"><b>Simple and secure:</b> A user with 0 crypto knowledge can instantly store, transfer, or receive assets with world-class security.</p>
+            </div>
         </div>
         <div className="right_transfer">
             <img src={Mockup} alt="" />

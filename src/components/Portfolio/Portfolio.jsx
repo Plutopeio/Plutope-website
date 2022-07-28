@@ -32,8 +32,7 @@ const Portfolio = () => {
           for every crypto need.
         </p>
         <b>
-          <p>No minimum capital</p>
-          <p>
+          <p>No minimum capital<br/>
             Zero crypto knowledge required
             <br /> to begin
           </p>
