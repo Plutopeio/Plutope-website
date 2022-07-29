@@ -13,7 +13,7 @@ const Portfolio = () => {
     <div style = {{position:"relative"}} id = "portfolio" className="portfolio_background_container">
       <Container className="container portfolio_container">
         {!isMobile ?
-          <Link to = "upi" className = "scroll_down_arrow" smooth = {true}>
+          <Link to = "not_your" className = "scroll_down_arrow" smooth = {true}>
             <ExpandCircleDownIcon style = {{fontSize : "50px",background: "#3C53F4" , borderRadius: "50%"}}/>
           </Link>
           : null}
@@ -43,8 +43,8 @@ const Portfolio = () => {
             </p>
           </b>
         </div>
-        <div className="portfolio_right" style = {{zIndex : "2"}}>
-          <img src={Transfers} alt="" width = "300" />
+        <div className="portfolio_right" style = {{zIndex : "2"}} >
+          <img src={Transfers} alt="" width = "300"/>
         </div>
       </Container>
     </div>

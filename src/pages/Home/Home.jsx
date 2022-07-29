@@ -39,7 +39,7 @@ const Home = () => {
         <Portfolio />
       </div>
       <div>
-        <img src={Keys} alt="" style = {{width:"100vw"}}/>
+        <img src={Keys} alt="" style = {{width:"100vw"}} id="not_your"/>
       </div>
       <div>
         <Upi />
