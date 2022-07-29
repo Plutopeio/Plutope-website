@@ -25,14 +25,14 @@ const Landing = () => {
   const isMobile = width <= 768;
 
   return (
-    <div style = {{position: "relative"}}>
+    <div style = {{position: "relative"}} className="landing_background_container">
    
     <Container className='container landing_container'>
       
       <div className="left_hero">
         <h1>Spend your crypto 
         <span> anywhere in the world </span>
-        with a <span style={{color: "#3C53F4" , backgroundColor: "white"}}>Plutope debit card.</span></h1>
+          with a <span style={{color: "#3C53F4" , backgroundColor: "white", display: "inline-block"}}>Plutope debit card.</span></h1>
         <p className = "landing_para">and say Hello 👋🏻 to financial freedom.</p>
         <button  href="" className="join_waitlist_btn">
           <span>Join The Waitlist</span>

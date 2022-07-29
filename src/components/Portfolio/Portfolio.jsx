@@ -8,7 +8,7 @@ import Transfers from "../../assets/Transfers.png"
 
 const Portfolio = () => {
   return (
-    <div style = {{position:"relative"}} id = "portfolio">
+    <div style = {{position:"relative"}} id = "portfolio" className="portfolio_background_container">
       <Container className="container portfolio_container">
         <Link to = "upi" className = "scroll_down_arrow" smooth = {true}>
           <ExpandCircleDownIcon style = {{fontSize : "50px",background: "#3C53F4" , borderRadius: "50%"}}/>

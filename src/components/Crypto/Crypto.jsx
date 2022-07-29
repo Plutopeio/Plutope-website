@@ -26,7 +26,7 @@ const Crypto = () => {
   const isMobile = width <= 768;
 
   return (
-    <div style = {{position:"relative"}} id = "crypto">
+    <div style = {{position:"relative"}} id = "crypto" className="crypto_background_container">
     <Container className='container crypto_container' >
       
       <img src={Vector} alt="" className='crypto_mover' width="400"/>

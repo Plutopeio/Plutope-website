@@ -1,12 +1,11 @@
 #portfolio {
     width: 100%;
-    background: #3C53F4;
+    background-color: #3C53F4;
 }
 
 .portfolio_container{
-    /*background: #3C53F4;*/
     padding: 50px 70px !important;
-    max-width: 100% !important;
+    width: 100% !important;
     position: relative;
     color: white;
 }
@@ -46,17 +45,12 @@
         display: none;
     }
 
-    .portfolio_container{
-        /*padding: 50px 10px !important;*/
-    }
-
-    #portfolio {
-        background: url(../../assets/mobile_screens/portfolio.png) no-repeat center center;
+    .portfolio_background_container{
+         background: url(../../assets/mobile_screens/portfolio.png) no-repeat center center;
         -webkit-background-size: contain;
         -moz-background-size: contain;
         -o-background-size: contain;
         background-size: contain;
- 
     }
 
     .portfolio_left{
@@ -75,4 +69,10 @@
     br{
         display: none;
     }
+}
+
+@media screen and (max-width: 768px) {
+  .portfolio_right img {
+    width: 160px !important;
+  }
 }

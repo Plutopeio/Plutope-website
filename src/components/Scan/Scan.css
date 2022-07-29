@@ -3,52 +3,57 @@
     font-size: 32px;
 }
 
-.left_transfer p{
+.left_scan p{
     color: #2A3943;
     font-size: 20px;
     line-height: 25px;
     margin: 20px 0;
 }
 
-.right_transfer img{
+.right_scan img{
     z-index: 1;
     width: 18vw;
 }
 
-.transfer_mover{
+.scan_mover {
     position: absolute;
     right: 0;
     z-index: -1;
 }
 
-.transfer_para{
+.scan_para {
     width: 50%;
 }
 
 @media screen and (max-width:1100px) {
-    .transfer_container{
+    .scan_container {
         flex-direction: column-reverse !important;
+        background: none;
         gap: 10px ;
         padding-top: 20px;
+        justify-content: space-evenly;
+   }
+
+    .scan_background_container {
         background: url(../../assets/mobile_screens/transfer.png) no-repeat center center;
         -webkit-background-size: contain;
         -moz-background-size: contain;
         -o-background-size: contain;
         background-size: contain;
- 
+        background-position-y: bottom;
     }
 
-    .left_transfer {
+    .left_scan {
         text-align: center;
         font-size: 20px;
         line-height: 50px;
     }
     
-    .right_transfer img{
+    .right_scan img{
         width: 300px;
     }
 
-    .transfer_mover{
+    .scan_mover {
         display: none;
     }
 
@@ -61,8 +66,17 @@
         line-height: 23px !important;
     }
 
-    
-    .transfer_para{
+    .scan_para{
         width: 100%;
     }
+}
+
+@media screen and (max-width:768px) {
+  .right_scan img {
+    width: 160px !important;
+  }
+
+  .left_transfer_head {
+    font-size: 32px !important;
+  }
 }

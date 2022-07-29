@@ -9,7 +9,7 @@ import {Link} from "react-scroll"
 
 const Transfer = () => {
   return (
-    <div style = {{position:"relative"}} id = "transfer">
+    <div style = {{position:"relative"}} id = "transfer" className="transfer_background_container">
      <Link to = "scan" className = "scroll_down_arrow" smooth = {true}>
         <ExpandCircleDownIcon style = {{fontSize : "50px" , color: "#3C53F4" , background: "white",borderRadius: "50%"}}/>
       </Link>
@@ -17,7 +17,7 @@ const Transfer = () => {
         <img src={Heptagon} alt="" className='transfer_mover' width="400"/>
         <div className="left_transfer">
             <h1 className='left_transfer_head'>Send or Receive<br/> crypto for  
-                <span style={{color:"#3C53F4"}}>{" "}free</span><br/>
+                <span style={{color:"#3C53F4"}}>{" "} free </span><br/>
                 and instantly
             </h1>
             <div className='transfer_para'>

@@ -61,3 +61,17 @@
         justify-content: center;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .left_feature img {
+        width: 150px !important;
+    }
+
+    .right_feature h1 {
+        font-size: 32px;
+    }
+
+    .right_feature p {
+        font-size: 22px;
+    }
+}

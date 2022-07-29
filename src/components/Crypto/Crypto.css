@@ -37,12 +37,15 @@
         flex-direction: column !important;
         gap: 10px ;
         justify-content: center;
+   }
+
+    .crypto_background_container {
         background: url(../../assets/mobile_screens/transfer.png) no-repeat center center;
         -webkit-background-size: contain;
         -moz-background-size: contain;
         -o-background-size: contain;
         background-size: contain;
- 
+        background-position-y: bottom;
     }
 
     .right_crypto {
@@ -70,5 +73,18 @@
     .find_out_btn_container {
         width: 100%;
     }
+
+   .left_crypto_head {
+        text-align: center;
+        align-self: center;
+    }
     
+}
+
+@media screen and (max-width: 768px) {
+  .left_crypto_head {
+    font-size: 32px;
+    text-align: center;
+    align-self: center;
+  }
 }
