@@ -48,7 +48,7 @@ const Crypto = () => {
         </div>
     </Container>
     {!isMobile ?
-      <Link to = "feature" className = "scroll_down_arrow" smooth = {true} style = {{bottom: "80px"}}>
+      <Link to = "portfolio" className = "scroll_down_arrow" smooth = {true} style = {{bottom: "80px"}}>
         <ExpandCircleDownIcon style = {{fontSize : "50px" ,color: "white" ,background: "#3C53F4"}}/>
       </Link>
       : null}

@@ -8,6 +8,7 @@ import Instant from "../../assets/instant.png";
 import Versatile from "../../assets/versatile.png";
 import ExpandCircleDownIcon from '@mui/icons-material/ExpandCircleDown';
 import {Link} from "react-scroll"
+import useMobile from "../../hooks/UseMobile";
 
 
 
@@ -32,6 +33,7 @@ const TEXTS = [
 
 
 const Secure = () => {
+  const isMobile = useMobile();
   const [index, setIndex] = React.useState(0);
   React.useEffect(() => {
     const intervalId = setInterval(
@@ -42,9 +44,11 @@ const Secure = () => {
   }, []);
   return (
     <Container className="container secure_container" id = "secure" style = {{position: "relative"}}>
-      <Link to = "last" className = "scroll_down_arrow" smooth = {true}>
-        <ExpandCircleDownIcon style = {{fontSize : "50px" , color: "#3C53F4"}}/>
-      </Link>
+      {!isMobile ?
+        <Link to = "last" className = "scroll_down_arrow" smooth = {true}>
+          <ExpandCircleDownIcon style = {{fontSize : "50px" , color: "#3C53F4"}}/>
+        </Link>
+        : null}
       <h1 className = "secure_center">
         PlutoPe is <br />
         <div style={{ color: "#3C53F4" ,  height: "90px" , margin : "0" , padding : "0"}}>

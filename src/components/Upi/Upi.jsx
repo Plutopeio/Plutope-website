@@ -9,6 +9,7 @@ import IMP from "../../assets/imp.png";
 import UPI from "../../assets/upi.png";
 import ExpandCircleDownIcon from '@mui/icons-material/ExpandCircleDown';
 import {Link} from "react-scroll"
+import useMobile from "../../hooks/UseMobile";
 
 
 import TextTransition, { presets } from "react-text-transition";
@@ -33,6 +34,7 @@ const TEXTS = [
 ];
 
 const Upi = () => {
+  const isMobile = useMobile();
   const [index, setIndex] = React.useState(0);
   React.useEffect(() => {
     const intervalId = setInterval(
@@ -43,9 +45,11 @@ const Upi = () => {
   }, []);
   return (
     <Container className="container upi_container" id = "upi">
-      <Link to = "stake" className = "scroll_down_arrow upi_scroll_down" smooth = {true} style = {{bottom : "-8px !important"}}>
-        <ExpandCircleDownIcon style = {{fontSize : "50px"}}/>
-      </Link>
+      {!isMobile ?
+        <Link to = "stake" className = "scroll_down_arrow upi_scroll_down" smooth = {true} style = {{bottom : "-8px !important"}}>
+          <ExpandCircleDownIcon style = {{fontSize : "50px"}}/>
+        </Link>
+        : null}
       <img src={Triangle} alt="" className="upi_mover" width="600" />
       <div className="left_upi">
         <img src={IMPS} alt="" width="450" />

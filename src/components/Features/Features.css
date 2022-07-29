@@ -35,10 +35,11 @@
     .features_container{
         flex-direction: column;
         background: url(../../assets/mobile_screens/features.png) no-repeat center center;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
+        -webkit-background-size: contain;
+        -moz-background-size: contain;
+        -o-background-size: contain;
         background-size: contain;
+        background-position-y: bottom;
     }
     .right_feature h1{
         font-size: 30px;
