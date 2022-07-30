@@ -20,7 +20,7 @@ const Stake = () => {
 PlutoPe will find you the best returns for the lowest risk.</p>
       </div>
       <div className="right_stake">
-        <img src={Polygon} alt="" width="500"/>
+        <img src={Polygon} alt="" width="450"/>
       </div>
     </Container>
   );

@@ -3,14 +3,16 @@
     align-items: flex-start;
     justify-content: center;
     font-weight: 600;
-    font-size: 32px;
+    font-size: 50px;
     line-height: 90px;
     color: #2A3943;
     padding: 50px 70px !important;
     max-width: 100% !important;
 }
 
-
+.secure_center {
+    font-size: calc(0.75em + 1vmin);
+}
 
 .secure_inner_container{
     display: flex;
@@ -21,8 +23,8 @@
 .secure_box{
     width: 300px;
     font-weight: 400;
-    font-size: 18px;
-    line-height: 34px;
+    font-size: calc(0.20em + 1vmin);
+    line-height: 24px;
     color: rgba(42, 57, 67, 0.7);
 }
 

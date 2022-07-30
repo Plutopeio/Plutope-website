@@ -11,13 +11,13 @@ const Portfolio = () => {
   const isMobile = useMobile();
   return (
     <div style = {{position:"relative"}} id = "portfolio" className="portfolio_background_container">
-      <Container className="container portfolio_container">
-        {!isMobile ?
+      <img src={WhiteHeptagon} alt="" className="portfolio_mover" width="400" />
+      {!isMobile ?
           <Link to = "not_your" className = "scroll_down_arrow" smooth = {true}>
-            <ExpandCircleDownIcon style = {{fontSize : "50px",background: "#3C53F4" , borderRadius: "50%"}}/>
+            <ExpandCircleDownIcon style = {{fontSize : "50px" ,color: "#3C53F4" ,background: "white"}}/>
           </Link>
           : null}
-        <img src={WhiteHeptagon} alt="" className="portfolio_mover" width="400" />
+      <Container className="container portfolio_container">
         <div className="portfolio_left">
           <h1>
             <span className="border_head">

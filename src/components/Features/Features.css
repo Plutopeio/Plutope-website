@@ -4,17 +4,18 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: -120px -70px;
+    font-size: 80px;
 }
 
 .right_feature h1{
     font-weight: 700;
-    font-size: 80px;
+    font-size: calc(0.75em + 1vmin);
     line-height: 95px;
 }
 
 .right_feature p{
     font-weight: 400;
-    font-size: 36px;
+    font-size: calc(0.30em + 1vmin);
     line-height: 44px;
     color: white;
 }

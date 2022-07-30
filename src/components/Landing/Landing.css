@@ -7,17 +7,18 @@
     background-repeat: no-repeat;
     padding-bottom: 100px;
     background-position: 0 200px;
+    font-size: 40px;
 }
 
 .left_hero h1{
     font-weight: 600;
-    font-size: 40px;
+    font-size: calc(0.75em + 1vmin);
     line-height: 60px;
 }
 
 .landing_para{
     font-weight: 400;
-    font-size: 28px;
+    font-size: calc(0.50em + 1vmin);
     line-height: 34px;
     color: white;
 }

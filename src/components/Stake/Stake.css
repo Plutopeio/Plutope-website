@@ -1,21 +1,22 @@
-.stake_container{
-    padding: 50px 70px !important;
+.stake_container {
+    padding: 50px 50px !important;
     max-width: 100% !important;
     background: #3C53F4;
     position: relative;
+    font-size: 50px;
 }
 
 .left_stake .border_head{
     font-weight: 700;
-    font-size: 5.9vw;
-    line-height: 100px;
+    font-size: calc(0.85em + 1vmin);
+    line-height: 50px;
     color: #3C53F4; 
     text-shadow: 0 0 10px #fff;
 }
 
 .left_stake .earn_head{
     font-weight: 700;
-    font-size: 5.5vw;
+    font-size: calc(0.85em + 1vmin);
     line-height: 70px;
     color: white;
 }
@@ -26,8 +27,8 @@
 
 .left_stake p{
     font-weight: 400;
-    font-size: 28px;
-    line-height: 34px;
+    font-size: calc(0.30em + 1vmin);
+    line-height: 25px;
     margin-top: 20px;
     max-width: 50vw;
     color: white;
@@ -38,7 +39,6 @@
     right: 0;
     bottom: -150px;
 }
-
 
 @media screen and (max-width:1100px) {
     .stake_container{
@@ -65,4 +65,10 @@
     .stake_mover{
         display: none;
     }
+}
+
+@media screen and (max-width: 768px) {
+  .border_head {
+    font-size: 42px !important;
+  }
 }

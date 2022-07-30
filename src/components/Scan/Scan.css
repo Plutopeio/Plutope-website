@@ -1,12 +1,16 @@
-.left_transfer {
+.scan_container {
+  font-size: 40px;
+}
+
+.left_scan h1{
     font-weight: 600;
-    font-size: 32px;
+    font-size: calc(0.75em + 1vmin);
 }
 
 .left_scan p{
     color: #2A3943;
-    font-size: 20px;
-    line-height: 25px;
+    font-size: calc(0.30em + 1vmin);
+    line-height: 30px;
     margin: 20px 0;
 }
 

@@ -1,5 +1,4 @@
 #portfolio {
-    width: 100%;
     background-color: #3C53F4;
 }
 
@@ -8,6 +7,7 @@
     width: 100% !important;
     position: relative;
     color: white;
+    font-size: 50px;
 }
 
 .portfolio_mover{
@@ -27,13 +27,13 @@
 
 .portfolio_container h1{
     font-weight: 700;
-    font-size: 5.5vw;
-    line-height: 100px;
+    font-size: calc(0.85em + 1vmin);
+    line-height: 50px;
     color: white; 
 }
 
 .portfolio_container p{
-    font-size: 28px;
+    font-size: calc(0.30em + 1vmin);
 }
 
 .portfolio_right img{
