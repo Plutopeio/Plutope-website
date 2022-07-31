@@ -9,6 +9,7 @@ import Crypto from "../../components/Crypto/Crypto";
 import Portfolio from "../../components/Portfolio/Portfolio";
 import Upi from "../../components/Upi/Upi";
 import Secure from "../../components/Secure/Secure";
+import Disclaimer from "../../components/Disclaimer/Disclaimer";
 
 import Stake from "../../components/Stake/Stake";
 import Footer from "../../components/Footer/Footer"
@@ -51,7 +52,10 @@ const Home = () => {
         <Secure />
       </div>
       <div>
-        <Footer/>
+        <Footer />
+      </div>
+      <div>
+        <Disclaimer />
       </div>
     </div>
   );

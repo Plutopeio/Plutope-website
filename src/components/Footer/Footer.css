@@ -39,7 +39,6 @@
     color: #3C53F4;
     display: flex;
     justify-content: center;
-    min-height: 70vh;
     /*align-items: center;*/
     gap: 40px;
     flex-wrap: wrap;
