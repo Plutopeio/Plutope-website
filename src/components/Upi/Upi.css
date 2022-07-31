@@ -41,6 +41,9 @@
     color: #FFFFFF;
 }
 
+.changing_image {
+  max-width: 150px;
+}
 
 @media screen and (max-width:1100px) {
     .upi_container{
@@ -88,4 +91,11 @@
         bottom: 8%;
     }
    
+}
+
+@media screen and (max-width: 768px) {
+  .changing_image {
+    max-height: 55px !important;
+    width: auto !important;
+  }
 }
