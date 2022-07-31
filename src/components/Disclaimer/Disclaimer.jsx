@@ -1,11 +1,8 @@
 import React from "react";
 import Container from "@mui/material/Container";
 import "./Disclaimer.css";
-import { Link } from "react-scroll";
-import useMobile from "../../hooks/UseMobile";
 
 const Disclaimer = () => {
-  const isMobile = useMobile();
   return (
     <div style={{position: "relative"}}>
       <Container className="container disclaimer_container">

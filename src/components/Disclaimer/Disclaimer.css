@@ -1,4 +1,5 @@
 .disclaimer_container {
+  margin-top: 10vh;
   display: flex;
   width: 100%;
   flex-direction: column;
@@ -33,6 +34,7 @@
 @media screen and (max-width: 768px) {
   .disclaimer_head {
     font-size: 18px;
+    margin-top: 20vh;
   }
 
   .disclaimer_para {
@@ -42,5 +44,9 @@
   .disclaimer_footer {
     font-size: 22px;
     flex-wrap: wrap;
+  }
+
+  .disclaimer_container {
+    min-height: 100vh;
   }
 }
