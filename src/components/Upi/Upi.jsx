@@ -50,9 +50,9 @@ const Upi = () => {
           <ExpandCircleDownIcon style = {{fontSize : "50px"}}/>
         </Link>
         : null}
-      <img src={Triangle} alt="" className="upi_mover" width="600" />
+      <img src={Triangle} alt="" className="upi_mover"/>
       <div className="left_upi">
-        <img src={IMPS} alt="" width="450" />
+        <img src={IMPS} alt="" className="imps"/>
       </div>
       <div className="right_upi">
         <h1>

@@ -6,11 +6,16 @@
     font-size: 50px;
 }
 
+.left_stake {
+  max-width: 50vw;
+}
+
 .left_stake .border_head{
     font-weight: 700;
-    font-size: calc(0.85em + 1vmin);
-    line-height: 50px;
+    font-size: calc(0.85em + 5vmin);
+    /*line-height: 50px;*/
     color: #3C53F4; 
+    max-width: 100%;
     text-shadow: 0 0 10px #fff;
 }
 
@@ -18,11 +23,8 @@
     font-weight: 700;
     font-size: calc(0.85em + 1vmin);
     line-height: 70px;
+    max-width: 100%;
     color: white;
-}
-
-.border_head {
-    max-width: 50vw;
 }
 
 .left_stake p{
@@ -30,7 +32,7 @@
     font-size: calc(0.30em + 1vmin);
     line-height: 25px;
     margin-top: 20px;
-    max-width: 50vw;
+    max-width: 85%;
     color: white;
 }
 
@@ -68,7 +70,15 @@
 }
 
 @media screen and (max-width: 768px) {
-  .border_head {
+  .left_stake h1 {
     font-size: 42px !important;
+  }
+
+  .left_stake {
+    max-width: 100% !important;
+  }
+
+  .left_stake p {
+    max-width: 100% !important;
   }
 }

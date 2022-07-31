@@ -5,8 +5,8 @@
 
 .right_crypto h1{
     font-weight: 600;
-    font-size: calc(0.75em + 1vmin);
-    line-height: 50px;
+    font-size: calc(0.75em + 4vmin);
+    /*line-height: 50px;*/
     text-align: right;
     display: flex;
     flex-direction: column;

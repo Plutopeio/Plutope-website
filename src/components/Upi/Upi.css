@@ -9,7 +9,7 @@
 }
 
 .right_upi h1{
-    font-size: calc(0.75em + 1vmin);
+    font-size: calc(0.75em + 5vmin);
     color: #3C53F4; 
     text-shadow: 0 0 10px #fff;
 }
@@ -24,13 +24,18 @@
     position: absolute;
     left: 0;
     bottom: -307px;
+    width: 45vw;
+}
+
+.imps {
+  width: 30vw;
 }
 
 .right_upi p{
     padding: 0 0 0 400px;
     text-align: right;
     font-weight: 400;
-    font-size: 28px;
+    font-size: calc(0.35em + 1vmin);
     line-height: 34px;
     text-align: right;
     color: #FFFFFF;
@@ -56,7 +61,8 @@
     }
 
     .right_upi p{
-        padding: 0;
+        padding: 5px;
+        font-weight: 500 !important;
         text-align: center;
     }
 

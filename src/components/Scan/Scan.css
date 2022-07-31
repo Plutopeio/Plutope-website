@@ -4,7 +4,7 @@
 
 .left_scan h1{
     font-weight: 600;
-    font-size: calc(0.75em + 1vmin);
+    font-size: calc(0.75em + 5vmin);
 }
 
 .left_scan p{
@@ -78,6 +78,10 @@
 @media screen and (max-width:768px) {
   .right_scan img {
     width: 160px !important;
+  }
+
+  .left_scan p {
+    font-size: 22px;
   }
 
   .left_transfer_head {

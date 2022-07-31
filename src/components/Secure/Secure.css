@@ -11,7 +11,7 @@
 }
 
 .secure_center {
-    font-size: calc(0.75em + 1vmin);
+    font-size: calc(0.75em + 5vmin);
 }
 
 .secure_inner_container{
