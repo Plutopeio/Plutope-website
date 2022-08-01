@@ -14,7 +14,7 @@ const About = () => {
           <Navbar/>
         </div>
         <img src={Bottom} alt="" className = "about_bottom" width = "450"/>
-        <img src={Top} alt="" className = "about_top" width = "500"/>
+        <a href="/"><img src={Top} alt="" className = "about_top" width = "500"/></a>
         <div className = "about_inner_container">
         <h1 style = {{fontWeight : "700",margin: "0",padding: "0"}}>ABOUT US</h1>
         <p style = {{fontWeight : "500",zIndex : "1"}}>
@@ -29,7 +29,9 @@ const About = () => {
         </p>
         </div>
       </div>
-      <Team />
+      <div id="team">
+        <Team />
+      </div>
     </div>
   );
 };
