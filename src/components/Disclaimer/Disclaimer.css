@@ -35,7 +35,7 @@
 
   .disclaimer_container {
     justify-content: flex-start;
-    height: 85vh !important;
+    /*height: 85vh !important;*/
     margin-top: 0;
   }
 
@@ -50,7 +50,6 @@
 
   .disclaimer_footer {
     font-size: 22px;
-    margin-top: 60px;
     flex-wrap: wrap;
   }
 
