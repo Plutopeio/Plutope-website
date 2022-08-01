@@ -20,6 +20,7 @@ const pages = [
   },
   {
     name: "Team",
+    link: "/#/team",
   },
 ];
 

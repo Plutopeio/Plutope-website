@@ -13,8 +13,18 @@
     justify-content: center;
     text-align: left;
     margin-top: 70px;
+    font-size: 40px;
+    max-width: 60vw;
 }
 
+.about_inner_container h1 {
+    font-size: calc(0.75em + 5vmin);
+}
+
+.about_inner_container p {
+    font-size: calc(0.15em + 2vmin);
+    max-width: 100%;
+}
 
 .about_bottom{
     position: absolute;
@@ -28,4 +38,27 @@
     top: -0px;
     left: 0;
     z-index: 0;
+}
+
+@media screen and (max-width: 1120px) {
+  .about_bottom {
+    display: none;
+  } 
+
+  .about_top {
+    display: none;
+  }
+
+  .about_inner_container {
+    max-width: 95vw !important;
+  }
+
+  .about_container {
+    padding: 20px 40px;
+    height: 100vh;
+  }
+
+  .about_inner_container p {
+    font-size: 18px;
+  }
 }
