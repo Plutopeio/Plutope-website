@@ -96,9 +96,14 @@ const ResponsiveAppBar = () => {
             >
               {pages.map((page) => (
                 <MenuItem key={page.name} onClick={handleCloseNavMenu}>
-                  <Typography textAlign="center" style={{ color: "#000" }} href = {page.link}>
+                  <Button
+                    key={page.name}
+                    sx={{ my: 2, color: "black", display: "block" }}
+                    style={{ color: "#000" , textTransform : "none", padding: "0", margin: "0"}}
+                    href = {page.link}
+                  >
                     {page.name}
-                  </Typography>
+                  </Button>
                 </MenuItem>
               ))}
             </Menu>
