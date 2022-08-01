@@ -23,7 +23,7 @@
 }
 
 .portfolio_left{
-    width: 50vw;
+    width: 75vw;
 }
 
 .portfolio_container h1{
@@ -44,6 +44,11 @@
 @media screen and (max-width:1100px) {
     .portfolio_mover{
         display: none;
+    }
+
+    .portfolio_container {
+        width: 100vw !important;
+        padding: 40px 20px !important;
     }
 
     .portfolio_background_container{

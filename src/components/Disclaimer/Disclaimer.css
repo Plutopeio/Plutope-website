@@ -32,9 +32,16 @@
 }
 
 @media screen and (max-width: 768px) {
+
+  .disclaimer_container {
+    justify-content: flex-start;
+    height: 85vh !important;
+    margin-top: 0;
+  }
+
   .disclaimer_head {
     font-size: 18px;
-    margin-top: 20vh;
+    margin-top: 0 !important;
   }
 
   .disclaimer_para {
@@ -43,6 +50,7 @@
 
   .disclaimer_footer {
     font-size: 22px;
+    margin-top: 60px;
     flex-wrap: wrap;
   }
 

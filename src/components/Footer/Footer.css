@@ -42,7 +42,7 @@
     justify-content: center;
     /*align-items: center;*/
     gap: 40px;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     padding: 10px;
     padding-bottom:50px;
     font-size: 20px;
@@ -89,6 +89,9 @@
 }
 
 @media screen and (max-width:1100px) {
+    .footer {
+      margin-bottom: 0 !important;
+    }
     .footer_container h1{
         padding: 0;
         font-size: x-large;
@@ -104,7 +107,7 @@
 
     .get_in_touch{
         margin-top: 0 !important;
-        font-size: 9px !important;
+        font-size: 8px !important;
     }
 
     .footer_bottom_container .column{
@@ -129,7 +132,29 @@
 }
 
 @media screen and (max-width: 768px) {
-  .column {
-    padding-top: 0 !important;
-  }
+    
+    .column {
+      padding-top: 0 !important;
+    }    
+
+    .footer_bottom_container .column{
+        width: 60px;
+    }
+ 
+    .footer_bottom_container .column .header{
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .footer_bottom_container .column .links{
+        font-size: 10px;
+    }
+
+    .footer_bottom_container .column .socials img{
+        width: 12px;
+    }
+
+    .question p{
+        font-size: 10px;
+    }
 }
