@@ -123,8 +123,9 @@ const ResponsiveAppBar = () => {
               textDecoration: "none",
             }}
             href="/"
+            style = {{fontFamily: "gacor", height: "25px", fontSize: "15px"}}
           >
-            PLUTOPE
+            plutope
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
             {pages.map((page) => (
