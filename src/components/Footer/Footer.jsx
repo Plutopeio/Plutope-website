@@ -83,7 +83,7 @@ const Footer = () => {
             You Call Us
           </div>
           <div className="question">
-            <p>0123-456789</p>
+            <p>+91 8527482283</p>
           </div>
         </div>
       </div>
