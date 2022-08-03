@@ -5,6 +5,8 @@ import "./Disclaimer.css";
 const Disclaimer = () => {
   return (
     <div style={{position: "relative"}}>
+      <div className="empty_space">
+      </div>
       <Container className="container disclaimer_container">
         <div className="disclaimer">
           <h1 className="disclaimer_head">

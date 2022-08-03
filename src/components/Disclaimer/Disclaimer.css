@@ -10,6 +10,10 @@
   color: rgb(60, 83, 244);
 }
 
+.empty_space {
+    height: 15vh;
+}
+
 .disclaimer_head {
   margin-top: 20px;
   font-size: calc(0.75em + 1vmin);
