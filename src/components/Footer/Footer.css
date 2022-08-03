@@ -131,30 +131,9 @@
     }
 }
 
-/*@media screen and (max-width: 768px) {*/
+@media screen and (max-width: 768px) {
+    .footer {
+        padding-bottom: 40px !important;
+    }
     
-    /*.column {*/
-      /*padding-top: 0 !important;*/
-    /*}    */
-
-    /*.footer_bottom_container .column{*/
-        /*width: 60px;*/
-    /*}*/
- 
-    /*.footer_bottom_container .column .header{*/
-        /*font-size: 12px;*/
-        /*line-height: 16px;*/
-    /*}*/
-
-    /*.footer_bottom_container .column .links{*/
-        /*font-size: 10px;*/
-    /*}*/
-
-    /*.footer_bottom_container .column .socials img{*/
-        /*width: 12px;*/
-    /*}*/
-
-    /*.question p{*/
-        /*font-size: 10px;*/
-    /*}*/
-/*}*/
+}
