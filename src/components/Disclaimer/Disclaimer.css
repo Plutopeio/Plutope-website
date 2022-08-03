@@ -36,7 +36,7 @@
   .disclaimer_container {
     justify-content: flex-start;
     /*height: 85vh !important;*/
-    margin-top: 0;
+    margin-top: 10vh;
   }
 
   .disclaimer_head {
