@@ -17,11 +17,11 @@
 .secure_inner_container{
     display: flex;
     gap: 30px;
-    flex-wrap: wrap; 
+    flex-wrap: nowrap; 
 }
 
 .secure_box{
-    width: 300px;
+    max-width: 300px;
     font-weight: 400;
     font-size: calc(0.20em + 1vmin);
     line-height: 24px;
