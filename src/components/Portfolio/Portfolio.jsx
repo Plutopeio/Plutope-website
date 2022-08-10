@@ -33,9 +33,9 @@ const Portfolio = () => {
             </b>
             , and have fun
             <br /> doing it. This is the one
-            <br /> stop destination
+            <br /> stop destination 
             <br />
-            for every crypto need.
+            <span> for every crypto need.</span>
           </p>
           <b>
             <p>No minimum capital. <br/>

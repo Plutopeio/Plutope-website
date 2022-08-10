@@ -33,10 +33,12 @@ const Landing = () => {
         <h1><span style={{display: "inline-block"}}> Spend your crypto </span> <span style={{display: "inline-block"}}> anywhere in the world </span>
           <span style={{display: "inline-block"}}> with a <span style={{color: "#3C53F4" , backgroundColor: "white"}}>Plutope debit card.</span></span></h1>
         <p className = "landing_para">and say Hello 👋🏻 to financial freedom.</p>
-        <button  href="" className="join_waitlist_btn">
-          <span>Join The Waitlist</span>
-          <img src={Right} alt="" />
-        </button>
+        <a href="https://plutope.kickoffpages.com/" style={{textDecoration: 'none'}}>
+            <button  href="https://plutope.kickoffpages.com/" className="join_waitlist_btn">
+              <span>Join The Waitlist</span>
+              <img src={Right} alt="" />
+            </button>
+          </a>
       </div>
       <div className="right_hero">
         <img src={Card} alt="" width="443"/>

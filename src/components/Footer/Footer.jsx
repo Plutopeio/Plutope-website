@@ -103,9 +103,11 @@ const Footer = () => {
             Even more exciting features are coming, Join the waitlist and get
             regular updates.
           </h1>
-          <button variant="contained" href="" className="join_waitlist_btn">
-            Join The Waitlist
-          </button>
+          <a href="https://plutope.kickoffpages.com/" style={{textDecoration: 'none'}}>
+            <button variant="contained" href="https://plutope.kickoffpages.com/" className="join_waitlist_btn">
+              Join The Waitlist
+            </button>
+          </a>
         </div>
         {isMobile ? <FooterMobile /> : foot}
      </div>

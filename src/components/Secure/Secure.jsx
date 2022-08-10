@@ -70,7 +70,7 @@ const Secure = () => {
 
         <div className="secure_box">
           Send Crypto to friends and family, instantly, for free. No wallet
-          adress necessary. Add money with the wide range of transaction options
+          address necessary. Add money with the wide range of transaction options
           available, and exchange currencies at the portfolio in <b>one tap.</b>
         </div>
 

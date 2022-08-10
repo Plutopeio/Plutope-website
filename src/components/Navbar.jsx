@@ -16,9 +16,6 @@ const pages = [
     link: "/#/about",
   },
   {
-    name: "Our Token",
-  },
-  {
     name: "Team",
     link: "/#/team",
   },
@@ -145,4 +142,5 @@ const ResponsiveAppBar = () => {
     </AppBar>
   );
 };
+
 export default ResponsiveAppBar;
