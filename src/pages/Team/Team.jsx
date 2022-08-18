@@ -15,9 +15,9 @@ const Team = () => {
       url: Chetan
     },
     {
-      name: "Aarlin Moncey",
+      name: "Aarlin Moncy",
       position: "Data Privacy Researcher",
-      linkedin: "",
+      linkedin: "https://www.linkedin.com/in/i-am-aarlinmatthewmoncy/",
       url: Aarlin,
     },
     {
